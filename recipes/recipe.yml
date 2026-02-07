@@ -35,9 +35,6 @@ modules:
       - notify: true # Send notification after install/uninstall is finished (true/false)
       - scope: user # Also add Flathub user repo, but no user packages
         install:
-          - org.srb2.SRB2
-          # - io.github.srb2.rphys //it makes the build fail for some reason
-          - org.kartkrew.RingRacers
           - io.github.dvlv.boxbuddyrs
           - com.usebottles.bottles
           - org.libretro.RetroArch
