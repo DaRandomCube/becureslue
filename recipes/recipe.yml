@@ -48,7 +48,11 @@ modules:
           - org.libreoffice.LibreOffice
           - org.luanti.luanti
           - org.qbittorrent.qBittorrent
-
+          - io.github.wartybix.Constrict
+          - com.github.marhkb.Pods
+          - com.github.wwmm.easyeffects
+          - io.github.giantpinkrobots.flatsweep
+          - com.ranfdev.DistroShelf
   - type: systemd
     system:
       enabled:
